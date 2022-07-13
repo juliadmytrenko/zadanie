@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    box-sizing: border-box;
+}
+
+button {
+    align-items: center;
+    background-clip: padding-box;
+    background-color: #fa6400;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 1.25;
+    margin: 0;
+    min-height: 3rem;
+    padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+    position: relative;
+    text-decoration: none;
+    transition: all 250ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    width: auto;
+}
+
+button:hover,
+button:focus {
+    background-color: #fb8332;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
+button:hover {
+    transform: translateY(-1px);
+}
+
+button:active {
+    background-color: #c85000;
+    box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
+    transform: translateY(0);
+}
+
+button[disabled=disabled],
+button:disabled {
+    opacity: 0.5;
+}
+
+button[disabled=disabled]:hover,
+button:disabled:hover {
+    transform: translateY(0);
+}
+
+/* loader */
+.loader-container {
+    display: none;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.spinner {
+    width: 64px;
+    height: 64px;
+    border: 8px solid;
+    border-color: #3d5af1 transparent #3d5af1 transparent;
+    border-radius: 50%;
+    animation: spin-anim 1.2s linear infinite;
+}
+
+@keyframes spin-anim {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+/* end of loader styles */
+
+
+.placeholder {
+    background-color: ghostwhite;
+    width: 85vw;
+    margin: 0 auto;
+    height: 700px;
+    padding: 1rem;
+    border-radius: 1rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+@media only screen and (min-width: 1000px) {
+    .placeholder {
+        width: 60vw;
+    }
+}
+
+
+#chart-wrapper,
+#myGrid {
+    margin: 0 auto;
+    position: relative;
+    width: 100%;
+
+}
+
+#chart-wrapper {
+    width: 100%;
+}
+
+@media only screen and (min-width: 1000px) {
+    #chart-wrapper {
+        width: 80%;
+    }
+}
+
+
+#myGrid {
+    height: 100%;
+}
+
+
+.btn-display {
+    display: block;
+    margin: 0 auto;
+    margin-top: 1rem;
+}
+
+.text {
+    padding: 1rem;
+
+}
+
+#text2 {
+    margin-top: 2rem;
+}
+
+.bg {
+
+    background-color: #e5e5f7;
+    opacity: 0.8;
+    background-image: radial-gradient(#444cf7 0.5px, #e5e5f7 0.5px);
+    background-size: 10px 10px;
+    border-radius: 1rem;
+}
+
+.no-scroll {
+    overflow: hidden;
+}
