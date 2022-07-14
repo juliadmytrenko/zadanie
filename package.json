@@ -1,0 +1,25 @@
+{
+  "name": "nowe-czesc",
+  "version": "1.0.0",
+  "description": "Projekt należy zhostować np. przy pomocy rozszerzenia Live Server z Visual Studio Code",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juliadmytrenko/zadanie.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juliadmytrenko/zadanie/issues"
+  },
+  "homepage": "https://github.com/juliadmytrenko/zadanie#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "http": "^0.0.1-security"
+  }
+}
