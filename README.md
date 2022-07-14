@@ -1,0 +1,1 @@
+Projekt należy zhostować np. przy pomocy rozszerzenia Live Server z Visual Studio Code
