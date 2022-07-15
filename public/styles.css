@@ -162,3 +162,7 @@ button:disabled:hover {
 .no-scroll {
     overflow: hidden;
 }
+
+#text-2 {
+    margin-top: 1rem;
+}
