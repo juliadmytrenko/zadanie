@@ -90,7 +90,7 @@ const toggleDisplayTextBackground = (textElement) => {
 };
 
 const prepareUserDataForChart = (data) => {
-  const chartContainer = document.getElementById("myChart");
+  const chartContainer = document.getElementById("my-chart");
   const y = data.map((person) => person.dob.age);
   const y_frequencies = frequencies(y, 10);
   const x_labels = Object.keys(y_frequencies);
@@ -99,7 +99,7 @@ const prepareUserDataForChart = (data) => {
 };
 
 const prepareUserDataForTable = (data) => {
-  const gridContainer = document.querySelector("#myGrid");
+  const gridContainer = document.querySelector("#my-grid");
   const columnDefs = [
     { field: "name" },
     { field: "gender", width: 150 },
@@ -167,5 +167,5 @@ document.querySelector(".btn-display").addEventListener("click", (event) => {
   disableButton(event.target);
 });
 
-const textElement = document.querySelector("#text2");
+const textElement = document.querySelector("#text-2");
 toggleDisplayTextBackground(textElement);

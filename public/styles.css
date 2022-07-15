@@ -111,7 +111,7 @@ button:disabled:hover {
 
 
 #chart-wrapper,
-#myGrid {
+#my-grid {
     margin: 0 auto;
     position: relative;
     width: 100%;
@@ -129,7 +129,7 @@ button:disabled:hover {
 }
 
 
-#myGrid {
+#my-grid {
     height: 100%;
 }
 
