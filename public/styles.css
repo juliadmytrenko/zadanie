@@ -53,6 +53,7 @@ button:active {
 button[disabled=disabled],
 button:disabled {
     opacity: 0.5;
+    cursor: not-allowed;
 }
 
 button[disabled=disabled]:hover,
