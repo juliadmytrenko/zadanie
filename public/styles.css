@@ -5,7 +5,7 @@ body {
     box-sizing: border-box;
 }
 
-button {
+.btn-styled {
     align-items: center;
     background-clip: padding-box;
     background-color: #fa6400;
@@ -34,30 +34,30 @@ button {
     width: auto;
 }
 
-button:hover,
-button:focus {
+.btn-styled:hover,
+.btn-styled:focus {
     background-color: #fb8332;
     box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
 }
 
-button:hover {
+.btn-styled:hover {
     transform: translateY(-1px);
 }
 
-button:active {
+.btn-styled:active {
     background-color: #c85000;
     box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
     transform: translateY(0);
 }
 
-button[disabled=disabled],
-button:disabled {
+.btn-styled[disabled=disabled],
+.btn-styled:disabled {
     opacity: 0.5;
     cursor: not-allowed;
 }
 
-button[disabled=disabled]:hover,
-button:disabled:hover {
+.btn-styled[disabled=disabled]:hover,
+.btn-styled:disabled:hover {
     transform: translateY(0);
 }
 
