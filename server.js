@@ -4,7 +4,7 @@ const http = require('http');
 const app = express();
 const server = http.createServer(app);
 
-app.use(express.static('public'));
+app.use(express.static('src'));
 
 app.get("/", function (req, res) {
     res.sendFile(__dirname + "/index.html");
