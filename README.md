@@ -1,8 +1,8 @@
-Projekt należy zhostować.
-Należy mieć zainstalowanego Node i wykonać poniższe komendy:
+To start the project you need to host it first.
+To do this you need to have Node installed and execude the commands below:
 - `npm install`
 - `npm start`
-serwer powinien uruchomić się pod portem 3000
+the server shoud run at port 3000 :)
 
 http://localhost:3000/
 
